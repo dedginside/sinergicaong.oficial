@@ -1,0 +1,48 @@
+body{
+    background-color: green;
+}
+.header{
+    background-color:red;
+    height:10vh;
+}
+.fast_menus{
+    display:flex;
+    background-color: black;
+    height:10vh;
+}
+.gancho{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:30px;
+    padding:10px;
+    background-color: blue;
+    height:max-content;
+}
+
+.about_us{
+    background-color: orange;
+    height: max-content;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:30px;
+    padding:10px;
+
+}
+.texto_aboutus{
+    flex:1;
+}
+.imagen_aboutus{
+    flex:1;
+}
+.imagen_aboutus img{
+    width:80%;
+    max-width: 70vw;
+    height:auto;
+    display:block;
+}
+.footer{
+    background-color: aqua;
+    height:20vh;
+}
